@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("|----------STACK----------|");
+        System.out.println("|----------STACK(LIFO)----------|");
 
         Stack stack=new Stack();
 
@@ -25,13 +25,16 @@ public class App {
         stack.pop();
         stack.display();
 
-        System.out.println("Top(peek) of stack:"+stack.peek());
-        System.out.println("After pop operation");
-        stack.pop();
-        stack.display();
+        System.out.println("|----------QUEUE(FIFO)----------|");
 
+        Queue queue=new Queue<>();
+        queue.enqueue(56);
+        queue.enqueue(30);
+        queue.enqueue(70);
 
-
+        System.out.println("Front element of queue: "+queue.front());
+        queue.display();
+           
 
     }
 }
