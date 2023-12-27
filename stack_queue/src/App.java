@@ -10,6 +10,27 @@ public class App {
 
         System.out.println("Top element:"+stack.peek());
         stack.display();
+        System.out.println("Top(peek) of stack:"+stack.peek());
+        System.out.println("After pop operation");
+        stack.pop();
+        stack.display();
+
+        System.out.println("Top(peek) of stack:"+stack.peek());
+        System.out.println("After pop operation");
+        stack.pop();
+        stack.display();
+
+        System.out.println("Top(peek) of stack:"+stack.peek());
+        System.out.println("After pop operation");
+        stack.pop();
+        stack.display();
+
+        System.out.println("Top(peek) of stack:"+stack.peek());
+        System.out.println("After pop operation");
+        stack.pop();
+        stack.display();
+
+
 
 
     }
