@@ -34,6 +34,9 @@ public class App {
 
         System.out.println("Front element of queue: "+queue.front());
         queue.display();
+
+        System.out.println("Dequeue : "+queue.dequeue());
+        queue.display();
            
 
     }
